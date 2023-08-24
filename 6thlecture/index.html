@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <input type="text" value="Babbar">
+        <br>
+        <br>
+
+        <input type="submit" value="click here bro ">
+        <br>
+        <br>
+<!-- agar teeno input ka name same hoga toh single check box pe hi click kr payenge -->
+        <label for="ab1"> tm mere ho </label>
+        <input type="radio" name="rhythm1" id="ab1" >
+        <br>
+
+        <label for="ab2" >mere hi rehna</label>
+        <input type="radio" name="rhythm1" id="ab2" >
+        <br>
+
+        <label for="ab3"> Nhi rehna </label>
+        <input type="radio" name="rhythm1" id="ab3">
+        <br>
+        <br>
+    
+        <label for="mana"> monday</label>
+        <input type="checkbox" name="ham" id="mana">
+
+        <label for="mana1"> tuesday</label>
+        <input type="checkbox" name="ham" id="mana1">
+
+        <label for="mana2">wednesday</label>
+        <input type="checkbox" name="ham" id="mana2">
+        <br><br>
+
+        <!-- How to upload file from your device -->
+        <label for="file">upload file</label>
+        <input type="file" name="fileselect" id="file">
+        <br><br>
+
+        <label for="image1"></label>
+        <input type="image" name="imagerhythm" id="image1" alt="image not visible" src="img.jpg"width= 100px >
+
+    </form>
+
+
+
+    <form>
+        <label for="email"> Enter Email id</label>
+        <input type="text" id="email" placeholder="Enter your Email Here">
+        <br>
+        <br>
+
+        <label for="password"> Enter password</label>
+        <input type="password" id="password" placeholder="Enter your password  Here">
+
+        <br>
+        <br>
+        <input type="submit" value="Click here">
+        <!-- another way to create button is given below -->
+        
+        <button>click here </button> 
+
+    </form>
+
+    <br>
+    <br>
+
+
+      
+
+    <!-- Now agar we want ek border line for the form then we use fieldset and 
+         if we want to write caption on the line of border we use legend -->
+
+
+    <fieldset>
+
+        <legend>HTML form dummy</legend>
+
+        <form >
+            <label for="datepicker">Choose Date </label>
+            <input type="Date" id="datepicker">
+    
+            <br>
+            <br>
+    
+            <label for="selector1">Choose your dish</label>
+            <!-- select is used for dropdown things -->
+            <select multiple name="dishes" id="selector1">
+                <option value="maggie">Maggie</option>
+                <option value="chowine">chow</option>
+                <option value="Hazmola">mola</option>
+            </select>
+     
+            <br>
+            <br>
+            <label for="pagal">Who should be the CR </label>
+            <select multiple name="names " id="pagal" >
+                <option value="rhythm"> Rhythm</option>
+                <option value="tarang"> Tarang</option>
+                <option value="placeholder"> Raju</option>
+
+            </select>
+
+            <br>
+            <br>
+    
+            <button>Main button hoon</button>
+
+            <br><br>
+
+            <textarea name="text" id="suresh" cols="100" rows="10" placeholder="Enter your text here"></textarea>
+    
+    
+        </form>
+
+    </fieldset>
+
+    </form>
+
+
+    <br><br><br>
+                                          <!-- Starting a new project -->
+
+
+    <fieldset>
+
+       <form>
+           <h2>Event Registration</h1>
+           <br>
+        
+        <label for="hi">Name:</label>
+        <br>
+        <br>
+        <input type="text" name="hi" id="hi">
+
+        <br>
+
+
+
+        <label for="hi2">Email</label>
+        <br>
+        <br>
+        
+        <input type="text" name="hi1" id="hi2">
+
+        <br>
+
+
+
+
+        <label for="hi3">Phone</label>
+        <br>
+        <br>
+        
+        <input type="text" name="hi1" id="hi3">
+        <br>
+
+
+
+        <label for="hi4">Occupation</label>
+        <br>
+        <br>
+        
+       
+        <select name="yoga" id="hi4">
+            <option value="Engineer">Engineer</option>
+            <option value="Doctor">Doctor</option>
+            <option value="other">Other</option>
+
+
+        </select>
+        <br>
+<br>
+
+
+        <label for="hi5">Topics Of Interest</label>
+        <br>
+        <br>
+
+        <input type="radio" name="ctu" id="hi5">
+        <br>
+        <label for="hi5">HTML</label>
+        <br>
+
+        <input type="radio" name="ctu" id="hi5">
+        <br>
+        <label for="hi5">CSS</label>
+        <br>
+
+
+        <input type="radio" name="ctu" id="hi5">
+        <br>
+        <label for="hi5">JavaScriptL</label>
+
+        <br><br>
+
+
+        <br>
+        <h9>Comments</h9>
+        <br>
+       <textarea name="large text area" id="hi6" cols="30" rows="10"></textarea>
+
+       <br>
+        <button>Register</button>
+
+        <br><br>
+
+        <label for="counter">Tell your experience in years</label>
+        <input type="number" name="counter" id="counter" min=" 0" max="10">
+
+       </form>
+    </fieldset>
+
+    <br><br>
+
+
+
+                                             <!-- project-2 on forms -->
+    <h2>Complex Form</h2>
+
+    <fieldset>
+        <legend>Personal Information</legend>
+        <br>
+
+        <label for="a">Name:</label>
+        <input type="text" name="a" id="a">
+
+        <label for="b">Email:</label>
+        <input type="text" name="a" id="b">
+
+        <label for="c">Phone:</label>
+        <input type="number" name="a" id="c">
+
+        <label for="d">Date Of Birth:</label>
+        <input type="date" name="a" id="d">
+
+        <label for="text">Gender</label>
+
+        <input type="radio" name="rohit" id="e">
+        <label for="e">Male</label>
+
+        <input type="radio" name="rohit1" id="f">
+        <label for="e">Female</label>
+       
+
+        <label for="g">Country</label>
+
+<select name="pyaar" id="g">Country
+<option value="India">India</option>
+<option value="pakistan">Pakistan</option>
+<option value="US">US</option>
+
+</select>
+
+    </fieldset>
+
+
+    <fieldset>
+
+        <legend>Address Street</legend>
+        <label for="city">City</label>
+        <input type="text" name="City" id="city">
+
+        <label for="state">State</label>
+        <input type="text" name="City" id="state">
+
+        <label for="Zipcode">Zipcode</label>
+        <input type="text" name="City" id="Zipcode">
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Other Information</legend>
+
+        <label for="hum">Comments</label>
+
+        <textarea name="pyara" id="hum" cols="30" rows="10"></textarea>
+
+        <label for="checking">I agree to the terms of service</label>
+        <input type="checkbox" name="check" id="checking">
+    </fieldset>
+
+    <button>submit</button>
+
+
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search here"  name="q">
+        <button>Submit</button>
+        </form>
+
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query" id="abc">
+        <button>submit</button>
+    </form>
+
+    <input type="range" min="100" max="110" name="vol">
+    <button>Submit</button>
+
+    <br>
+
+Student Information
+            <table border="1px">
+                <tr >
+                    <td rowspan = "6">Info</td>
+                    <td rowspan="2">Name</td>
+                    <td colspan="2">Address</td>
+                </tr>
+
+                <tr>
+                    <td>City</td>
+                    <td>House</td>
+                </tr>
+
+                <tr>
+                    <td>A</td>
+                    <td>Delhi</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>Mumbai</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Kolkata</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>Pune</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+
+                </tr>
+                
+                
+        
+        
+            </table>
+            <label for="rrr">Name:</label>
+            <input type="text" name="rrr" id="rrr">
+            <br>
+
+            <label for="radio10">Sex:</label>
+
+            <label for="radio10">Male:</label>
+            <input type="radio" name="radio10" id="radio10" value="male">
+
+            <label for="radio10">Female:</label>
+            <input type="radio" name="radio10" id="radio10">
+
+<br>
+            <label for="rea">Select your country</label>
+
+          <select name="adf" id="rea">
+              <option value="mumbai">Mumbai</option>
+              <option value="Katihar">Katihar</option>
+              <option value="Bhagalpur">Bhagalpur</option>
+          </select>
+
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+</body>
+</html>
